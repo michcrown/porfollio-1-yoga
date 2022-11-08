@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Serif+JP:wght@200&display=swap');
+h1 {
+    color: pink;
+    font-family: 'DM Serif Display', serif;
+    background: grey;
+    font-size: 40px;
+    float: left;
+    padding: 2%;
+}
+
+
+#menu {
+    color: pink;
+    font-family: 'DM Serif Display', serif;
+    background: grey;
+    font-size: 20px;
+    float: right;
+    padding: 2%;
+
+}
