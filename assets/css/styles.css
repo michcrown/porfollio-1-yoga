@@ -1,20 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Noto+Serif+JP:wght@200&display=swap');
-h1 {
-    color: pink;
+
+/* logo and menu */
+#logo {
+    color: white;
     font-family: 'DM Serif Display', serif;
-    background: grey;
-    font-size: 40px;
+    font-size: 280%;
     float: left;
-    padding: 2%;
+    padding-top: 10px;
+    letter-spacing: 2px;
 }
 
+#menu, #logo {
+    line-height: 50px;
+}
 
 #menu {
+    font-size: 100%;
+    float: right;
+    padding-top: 35px;
+
+}
+
+#menu a {
+    list-style-type: none;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+}
+
+#menu a:hover {
+    color: rgba(64,64,64, 1);
+    text-decoration: underline;
+}
+
+/* main-image */
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/black-stones-pink-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/* about */
+
+#about-background {
+    background-color: rgba(64,64,64, .9);
+    height: 600px;
+    width: 100%;
+}
+
+#about-image {
+    background-image: url(../images/woman-meditating.jpg);
+    width: 45%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: left;
+}
+
+#about {
     color: pink;
     font-family: 'DM Serif Display', serif;
-    background: grey;
-    font-size: 20px;
-    float: right;
-    padding: 2%;
+    font-size: 200%;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
 
+#about-text{
+    font-family: 'Noto Serif JP', serif;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    margin: 5%
 }
