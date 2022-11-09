@@ -48,7 +48,7 @@
 /* about */
 
 #about-background {
-    background-color: rgba(64,64,64, .9);
+    background-color: rgba(31, 31, 31, 0.9);
     height: 600px;
     width: 100%;
 }
@@ -61,10 +61,11 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     float: left;
+    margin: 50px 10px 50px 50px;
 }
 
 #about {
-    color: pink;
+    color: rgba(247,191,190,0.9);
     font-family: 'DM Serif Display', serif;
     font-size: 200%;
     letter-spacing: 2px;
@@ -78,4 +79,40 @@
     display: inline-block;
     width: 40%;
     margin: 5%
+}
+
+/* our studio */
+
+#studio-background {
+    background-color: rgba(247,191,190,0.9);
+    height: 600px;
+    width: 100%;
+}
+#studio-image{
+    background-image: url(../images/the-studio.jpg);
+    width: 45%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    float: right;
+    margin: 50px 50px 50px 10px;
+}
+
+#studio {
+    color: rgba(31, 31, 31, 0.9);
+    font-family: 'DM Serif Display', serif;
+    font-size: 200%;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#studio p {
+    font-family: 'Noto Serif JP', serif;
+    color: rgba(31, 31, 31, 0.9);
+    float:left;
+    width: 40%;
+    margin: 5%;
+    text-align: center;
 }
