@@ -11,22 +11,21 @@
 }
 
 #menu, #logo {
-    line-height: 50px;
+    line-height: 60px;
 }
 
 #menu {
-    font-size: 100%;
+    font-size: 75%;
     float: right;
     padding-top: 35px;
 
 }
 
 #menu a {
-    list-style-type: none;
-    margin-right: 20px;
     text-decoration: none;
     color: white;
     font-family: 'DM Serif Display', serif;
+
 }
 
 #menu a:hover {
@@ -69,16 +68,15 @@
     font-family: 'DM Serif Display', serif;
     font-size: 200%;
     letter-spacing: 2px;
-    padding-top: 20px;
 }
 
-#about-text{
+#about-text {
     font-family: 'Noto Serif JP', serif;
     color: white;
     text-align: center;
     display: inline-block;
-    width: 40%;
-    margin: 5%
+    width: 35%;
+    margin: 5%;
 }
 
 /* our studio */
@@ -88,7 +86,7 @@
     height: 600px;
     width: 100%;
 }
-#studio-image{
+#studio-image {
     background-image: url(../images/the-studio.jpg);
     width: 45%;
     height: 500px;
@@ -104,15 +102,38 @@
     font-family: 'DM Serif Display', serif;
     font-size: 200%;
     letter-spacing: 2px;
-    padding-top: 20px;
+    padding-top:40px;
     text-align: center;
+    margin: 0%;
 }
 
-#studio p {
+#studio-background p {
     font-family: 'Noto Serif JP', serif;
     color: rgba(31, 31, 31, 0.9);
-    float:left;
-    width: 40%;
-    margin: 5%;
     text-align: center;
+    width: 35%;
+    margin: 40px;
+    padding-left: 40px;
+}
+
+#studio-background li {
+    font-family: 'Noto Serif JP', serif;
+    color: rgba(31, 31, 31, 0.9);
+    text-align: center;
+    width: 35%;
+    margin: 5px;
+    padding-left: 40px;
+}
+
+#footer-icons li, a {
+    color: rgba(64,64,64, 1);
+    font-size: 150%;
+    display: inline;
+    padding: 5%;
+    margin: 0;
+}
+
+#footer-icons a:hover {
+    color: rgba(247,191,190,0.9);
+    text-decoration: underline;
 }
