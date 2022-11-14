@@ -2,7 +2,7 @@
 
 /* logo and menu */
 #logo {
-    color: white;
+    color: rgba(64,64,64, 1);
     font-family: 'DM Serif Display', serif;
     font-size: 280%;
     float: left;
@@ -18,20 +18,18 @@
     font-size: 75%;
     float: right;
     padding-top: 35px;
+    width: 30%;
 
 }
 
 #menu a {
     text-decoration: none;
-    color: white;
+    color: rgba(64,64,64, 1);
     font-family: 'DM Serif Display', serif;
-    display: inline-block;
-    overflow: hidden;
-
 }
 
 #menu a:hover {
-    color: rgba(64,64,64, 1);
+    color: white;
     text-decoration: underline;
 }
 
@@ -143,6 +141,7 @@
 /* Gallery page */
 
 #gallery-image-container {
+
     height: 150px;
     width: 100%;
 }
