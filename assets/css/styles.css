@@ -2,9 +2,9 @@
 
 /* logo and menu */
 #logo {
-    color: rgba(64,64,64, 1);
+    color: white;
     font-family: 'DM Serif Display', serif;
-    font-size: 280%;
+    font-size: 200%;
     float: left;
     padding-top: 10px;
     letter-spacing: 2px;
@@ -24,12 +24,12 @@
 
 #menu a {
     text-decoration: none;
-    color: rgba(64,64,64, 1);
+    color: white;
     font-family: 'DM Serif Display', serif;
 }
 
 #menu a:hover {
-    color: white;
+    color: rgba(64,64,64, 1);
     text-decoration: underline;
 }
 
@@ -66,13 +66,14 @@
 #about {
     color: rgba(247,191,190,0.9);
     font-family: 'DM Serif Display', serif;
-    font-size: 200%;
+    font-size: 150%;
     letter-spacing: 2px;
 }
 
 #about-text {
     font-family: 'Noto Serif JP', serif;
     color: white;
+    font-size: 90%;
     text-align: center;
     display: inline-block;
     width: 35%;
@@ -100,7 +101,7 @@
 #studio {
     color: rgba(31, 31, 31, 0.9);
     font-family: 'DM Serif Display', serif;
-    font-size: 200%;
+    font-size: 150%;
     letter-spacing: 2px;
     padding-top:40px;
     text-align: center;
@@ -109,6 +110,7 @@
 
 #studio-background p {
     font-family: 'Noto Serif JP', serif;
+    font-size: 90%;
     color: rgba(31, 31, 31, 0.9);
     text-align: center;
     width: 35%;
@@ -118,6 +120,7 @@
 
 #studio-background li {
     font-family: 'Noto Serif JP', serif;
+    font-size: 90%;
     color: rgba(31, 31, 31, 0.9);
     text-align: center;
     width: 35%;
@@ -127,7 +130,7 @@
 
 #footer-icons li, a {
     color: rgba(64,64,64, 1);
-    font-size: 150%;
+    font-size: 120%;
     display: inline;
     padding: 5%;
     margin: 0;
@@ -138,6 +141,14 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width 950px) {
+    #menu {
+      clear: left;
+      float: left;
+      margin-left: 30px;
+      line-height: 25px;
+    }
+  }
 /* Gallery page */
 
 #gallery-image-container {
