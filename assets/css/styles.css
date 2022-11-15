@@ -95,7 +95,7 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     float: right;
-    margin: 50px 50px 50px 10px;
+    margin: 50px 30px 50px 10px;
 }
 
 #studio {
@@ -141,14 +141,31 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width 950px) {
+@media screen and (max-width 650px) {
     #menu {
       clear: left;
       float: left;
       margin-left: 30px;
       line-height: 25px;
+      margin-bottom: 20px;
     }
+
+    #about-image {
+        width: 30%;
+
+    }
+
+    #studio-image {
+        width: 30%;
+    }
+    #about, #about-text {
+        width: 40%;
+        margin: 0;
+    }
+
   }
+
+
 /* Gallery page */
 
 #gallery-image-container {
