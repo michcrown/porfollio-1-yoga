@@ -2,7 +2,7 @@
 
 /* logo and menu */
 #logo {
-    color: white;
+    color: black;
     font-family: 'DM Serif Display', serif;
     font-size: 200%;
     float: left;
@@ -24,7 +24,7 @@
 
 #menu a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'DM Serif Display', serif;
 }
 
