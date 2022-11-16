@@ -130,7 +130,7 @@
 
 #footer-icons li, a {
     color: rgba(64,64,64, 1);
-    font-size: 120%;
+    font-size: 110%;
     display: inline;
     padding: 5%;
     margin: 0;
@@ -141,26 +141,34 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width 650px) {
+@media screen and (max-width: 850px) {
+
+    #logo {
+        margin: 0%;
+        padding-bottom: 0px;
+    }
+
     #menu {
-      clear: left;
-      float: left;
-      margin-left: 30px;
-      line-height: 25px;
-      margin-bottom: 20px;
+        clear: left;
+        float: left;
+        margin-top: 0px;
+        line-height: 20px;
     }
 
-    #about-image {
-        width: 30%;
-
-    }
+    #about-image [
+        padding: 30 10 10 30;
+        width: 35%
+    ]
 
     #studio-image {
-        width: 30%;
+        padding: 30 10 20 30;
+        width: 35%;
     }
-    #about, #about-text {
+
+    #about-text {
         width: 40%;
-        margin: 0;
+        margin: 0%;
+        
     }
 
   }
