@@ -221,8 +221,23 @@
 }
 
 #contact-wrapper {
-    background-color: rgba(247,191,190,0.9);
-    font-family: 'Noto Serif JP', serif;
-    height: 400px;
-    width: 400px;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Serif Display', serif;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vr;
+}
+
+#contact-form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#contact-form input {
+    display: block;
+    width: 350px;
+    height: 40px
 }
