@@ -220,6 +220,15 @@
     }
 }
 
+#contact-wrapper {
+    width: 600px;
+    height: 400px; 
+    background-color: rgba(247,191,190,0.9);
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
 #contact-form {
     margin-top: 300px;
     font-family: 'DM Serif Display', serif;
@@ -231,10 +240,10 @@
     height: 100vr;
     margin-top: 50px;
     text-align: center;
-    background-size: cover;
 }
 
 #contact-form input {
+    color: white;
     display: block;
     width: 350px;
     height: 40px;
@@ -250,7 +259,7 @@ button {
     width: 350px;
     height: 40px;
     font-size: 15px;
-    background-color: rgba(247,191,190,0.9);
+    background-color: white;
     color: black;
     font-family: 'DM Serif Display', serif;
     border: none;
