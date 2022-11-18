@@ -211,22 +211,11 @@
     grid-row: span 2;
 }
 
-/* Media query anything under 1024px */
-
-@media screen and (max-width: 1024px) {
-    .image-grid {
-        --num-cols: 2;
-        --row-height: 200px;
-    }
-}
+/* contact page */
 
 #contact-wrapper {
-    width: 600px;
-    height: 400px; 
-    background-color: rgba(247,191,190,0.9);
-    margin-top: 7%;
-    margin-left: 20%;
-    margin-bottom: 10%;
+    background: url(../images/woman_pink_sand.jpg) no-repeat;
+    background-size: cover;
 }
 
 #contact-form {
@@ -259,16 +248,35 @@ button {
     width: 350px;
     height: 40px;
     font-size: 15px;
-    background-color: white;
+    background-color: rgba(247,191,190,0.9);
     color: black;
     font-family: 'DM Serif Display', serif;
     border: none;
     margin-top: 20px;
+    margin-bottom: 50px;
 
+}
+
+button a:hover {
+    background-color: white;
 }
 
 form h1 {
     font-family: 'DM Serif Display', serif;
     font-size: 150%;
     margin-bottom: 30px; 
+}
+
+/* Media query anything under 1024px */
+
+@media screen and (max-width: 1024px) {
+    .image-grid {
+        --num-cols: 2;
+        --row-height: 200px;
+    }
+
+    #menu {
+        clear: right;
+        float: left;
+    }
 }
