@@ -307,3 +307,29 @@ form h1 {
         font-size: 90%;
     }
 }
+
+@media screen and (max-width: 550px) {
+
+    #studio {
+        font-size: 140%;
+        text-align: center;
+        padding-left: 10px;
+    }
+    #studio-background p {
+        margin: 20px 0 0 0;
+        text-align: center;
+        font-size: 80%;
+    }
+    #studio-background li {
+        font-size: 70%;
+        margin: 0 0 0 0;
+        padding-left: 0;
+    }
+    #footer {
+        font-size: 50%;
+        display: block;
+        margin: 0 0 0 0;
+        
+    }
+
+}
