@@ -34,6 +34,7 @@
 }
 
 /* main-image */
+/* main image was stretched, used https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch */
 
 #main-image {
     height: 600px;
@@ -128,6 +129,8 @@
     padding-left: 40px;
 }
 
+/* used footer html and css code from Love Running project*/
+
 #footer-icons li, a {
     color: rgba(64,64,64, 1);
     font-size: 110%;
@@ -143,6 +146,7 @@
 
 
 /* Gallery page */
+/* used tutorial and copied code for gallery grid, https://www.youtube.com/watch?v=rnhoY5Cdmy0 */
 
 #gallery-image-container {
 
@@ -179,7 +183,7 @@
     grid-row: span 2;
 }
 
-/* contact page */
+/* used tutorial from here https://www.youtube.com/watch?v=n6sv__UBwIA */
 
 #contact-wrapper {
     background: url(../images/woman_pink_sand.jpg) no-repeat;
@@ -236,7 +240,8 @@ form h1 {
 }
 
 /* Media query anything under 1024px */
-
+/* used media query assistance from here https://www.solodev.com/blog/web-design/media-queries-and-mobile-css-best-practices.stml# */
+/* break point from here https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/d48e6af85eb84191bebd57ece8b6fb73/*/
 @media screen and (max-width: 1024px) {
     .image-grid {
         --num-cols: 2;
