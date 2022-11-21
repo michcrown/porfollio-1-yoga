@@ -12,6 +12,7 @@ This site also contains some sections on the main page which detail more informa
 The navigation is in a good font that colour contrasts with the background.
 
 The navigation underlines when hovered over.
+
 <img width="277" alt="Screen Shot 2022-11-21 at 10 47 39 am" src="https://user-images.githubusercontent.com/113892139/203034572-71b4d43f-875b-4701-81a6-8d9ca5788733.png">
 
 
@@ -26,7 +27,7 @@ The title explains clearly this is a studio for women.
 
 <img width="442" alt="Screen Shot 2022-11-21 at 10 47 30 am" src="https://user-images.githubusercontent.com/113892139/203034622-58e2a504-f79a-4af2-8b5d-868381ed7b23.png">
 
-The header image which is below the title and nav contains an aria label. Additional help to ensure sizing of image was used from, https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch .
+The main-image contains alt text for accessibility.
 
 
 <h2>The "about" section:</h2>
@@ -39,7 +40,7 @@ The font is clearly visible against the background.
 
 This section contains a H1 and P elements which are sized accoridngly.
 
-This section contains an image which has an aria label.
+This section contains an image which has alt text.
 
 This section tells the user the "ethos" or what this studio is about.
 
@@ -54,7 +55,7 @@ The font is clearly visible against the background.
 
 This section contains a H1 and P and list elements which are sized accoridngly.
 
-This section contains an image which has an aria label.
+This section contains an image which has alt text.
 
 This section tells the user some perks of training at this studio.
 
@@ -69,6 +70,8 @@ This page also contains images that are reactive to the size of screen.
 
 This page also contains a matching header and nav screen as well as footer.
 
+All images have alt texts.
+
 All gallery text was used from this tutorial, https://www.youtube.com/watch?v=rnhoY5Cdmy0.
 
 
@@ -80,7 +83,7 @@ This page contains a floating contact page.
 
 This contact section contains a text input, email input, and a drop down option. 
 
-The contact page is covered by an image as the background which contains an aria label.
+The contact page is covered by an image.
 
 A tutorial for this contact page was used from, https://www.youtube.com/watch?v=n6sv__UBwIA.
 
