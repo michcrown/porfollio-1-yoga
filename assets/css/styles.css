@@ -15,7 +15,7 @@
 }
 
 #header-block {
-    height: 120px;
+    height: 150px;
     width: 100%;
     background-color: white;
 }
@@ -45,10 +45,9 @@
 #main-image {
     height: 600px;
     width: 100%;
-    background: url(../images/black-stones-pink-background.jpg);
-    background-size: cover;
+    object-fit: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+
 }
 
 /* about */
@@ -60,12 +59,9 @@
 }
 
 #about-image {
-    background-image: url(../images/woman-meditating.jpg);
     width: 45%;
     height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    object-fit: cover;
     float: left;
     margin: 50px 10px 50px 50px;
 }
@@ -95,12 +91,10 @@
     width: 100%;
 }
 #studio-image {
-    background-image: url(../images/the-studio.jpg);
+   /* background-image: url(../images/the-studio.jpg);*/
     width: 45%;
     height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    object-fit: cover;
     float: right;
     margin: 50px 30px 50px 10px;
 }
@@ -279,12 +273,12 @@ form h1 {
 #logo {
     margin-bottom: 0;
     padding-bottom: 0;
+    font-size: 170%;
 
 }
     #menu {
         clear: both;
         float: left;
-        line-height: 10px;
     }
     #about {
         font-size: 150%;
