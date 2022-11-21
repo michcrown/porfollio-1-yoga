@@ -1,108 +1,147 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome michcrown,
+The Everywoman Studio is a website designed to market for a womens yoga studio. Customers and users of this site should be able to find information regarding the studio's ethos, and some perks that come with the use of this studio. As well as see photos oof the studio and some people who train and there, and sign up if they would like more information.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<img width="1010" alt="Screen Shot 2022-11-21 at 2 04 37 pm" src="https://user-images.githubusercontent.com/113892139/203074706-47b8f181-ca01-4551-8634-32c6f1877ff3.png">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Features:
 
-## Gitpod Reminders
+This site has a navigation bar which directs users to separate pages for Gallery and Contact.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This site also contains some sections on the main page which detail more information regarding the Studio.
 
-`python3 -m http.server`
+The navigation is in a good font that colour contrasts with the background.
 
-A blue button should appear to click: _Make Public_,
+The navigation underlines when hovered over.
+<img width="277" alt="Screen Shot 2022-11-21 at 10 47 39 am" src="https://user-images.githubusercontent.com/113892139/203034572-71b4d43f-875b-4701-81a6-8d9ca5788733.png">
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The Header:
 
-A blue button should appear to click: _Make Public_,
+The header is displayed in a separate font and sized to be easily read.
 
-Another blue button should appear to click: _Open Browser_.
+This font is displayed in a contrasting color and is easily read.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The title explains clearly this is a studio for women.
+<img width="442" alt="Screen Shot 2022-11-21 at 10 47 30 am" src="https://user-images.githubusercontent.com/113892139/203034622-58e2a504-f79a-4af2-8b5d-868381ed7b23.png">
 
-To log into the Heroku toolbelt CLI:
+The header image which is below the title and nav contains an aria label. Additional help to ensure sizing of image was used from, https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch .
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The "about" section:
+<img width="1133" alt="Screen Shot 2022-11-21 at 10 48 24 am" src="https://user-images.githubusercontent.com/113892139/203034672-212cf481-43cd-4e8e-8f77-438809fb032e.png">
 
-------
+This section is in a separate colour background which clearly identifies this is a separate section.
 
-## Release History
+The font is clearly visible against the background.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+This section contains a H1 and P elements which are sized accoridngly.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+This section contains an image which has an aria label.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+This section tells the user the "ethos" or what this studio is about.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The Studio section:
+<img width="1181" alt="Screen Shot 2022-11-21 at 10 48 35 am" src="https://user-images.githubusercontent.com/113892139/203034724-fe11f896-135d-4320-999a-d35e9fe522d5.png">
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+This section is in a separate colour background which clearly identifies this is a separate section.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The font is clearly visible against the background.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+This section contains a H1 and P and list elements which are sized accoridngly.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+This section contains an image which has an aria label.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+This section tells the user some perks of training at this studio.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Gallery:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+This page contains five images which are sizes in varying collums.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+This page contains images which all have alt texts.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+This page also contains images that are reactive to the size of screen.
 
-------
+This page also contains a matching header and nav screen as well as footer.
 
-## FAQ about the uptime script
+All gallery text was used from this tutorial, https://www.youtube.com/watch?v=rnhoY5Cdmy0.
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Contact:
+<img width="606" alt="Screen Shot 2022-11-21 at 10 46 18 am" src="https://user-images.githubusercontent.com/113892139/203034945-34a6654d-b8bc-475c-a660-f6634c009f36.png">
 
-**How will this affect me?**
+This page contains a floating contact page. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+This contact section contains a text input, email input, and a drop down option. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The contact page is covered by an image as the background which contains an aria label.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+A tutorial for this contact page was used from, https://www.youtube.com/watch?v=n6sv__UBwIA.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The footer:
+<img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203034774-b593e6d3-7833-42c6-b0f7-e94b0f6e8455.png">
 
-**Can I opt out?**
+Contains icons which are hyper links to all social media platforms for the user.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+All links open in separate pages.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+All icons change colour when hovered over.
 
-**Anything more?**
+The Love Running footer was used on this footer.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+Testing:
 
-Happy coding!
+I have tested all navigation links work from all pages
+
+I have tested all images aria labels and alt texts.
+
+I have tested this on different screen sizes.
+
+I have ensured all fonts are readable
+
+I have tested the email section on the contact page does not allow any test without the email tag.
+<img width="628" alt="Screen Shot 2022-11-21 at 10 46 24 am" src="https://user-images.githubusercontent.com/113892139/203034910-b986b4d8-86f8-4e84-98d0-20119d9c438c.png">
+
+I have tested all hovering text does react the way intended.<img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203035059-f6718cd6-68bf-415f-8ede-a05eba243e52.png">
+
+
+Bugs (solved):
+
+I had many media query issues with the studio section and about section. This has been resloved to ensure the font and image are still easily seen.
+
+Main image was not stretching correctly, this was resolved by using a tutorial online. (Linked above and in CSS)
+
+Validator testing:
+
+HTML:
+1 error in opening start tag to footer in line 64.
+
+CSS:
+1 error in regards to line 207, this was ignored as this is the measurement used in the tutorial and is used to be responsive.
+https://snook.ca/archives/html_and_css/vm-vh-units
+
+ACCESIBLITY:
+<img width="465" alt="Screen Shot 2022-11-21 at 2 03 10 pm" src="https://user-images.githubusercontent.com/113892139/203074324-0294dafb-0848-40ce-bc02-2f829fc4398f.png">
+
+
+Credits:
+
+Main image cover issue - https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch
+
+Gallery idea and media query was used from this tutorial online - https://www.youtube.com/watch?v=rnhoY5Cdmy0
+
+Contact page html and css was used from this tutorial online -  https://www.youtube.com/watch?v=n6sv__UBwIA.
+
+Footer from Love Running project was used
+
+Images:
+
+All images were taken from Pexels.
+
+
+
+
