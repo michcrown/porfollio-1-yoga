@@ -16,7 +16,7 @@ The navigation underlines when hovered over.
 
 
 
-The Header:
+<h2>The Header:</h2>
 
 The header is displayed in a separate font and sized to be easily read.
 
@@ -29,7 +29,7 @@ The title explains clearly this is a studio for women.
 The header image which is below the title and nav contains an aria label. Additional help to ensure sizing of image was used from, https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch .
 
 
-The "about" section:
+<h2>The "about" section:</h2>
 
 <img width="1133" alt="Screen Shot 2022-11-21 at 10 48 24 am" src="https://user-images.githubusercontent.com/113892139/203034672-212cf481-43cd-4e8e-8f77-438809fb032e.png">
 
@@ -44,7 +44,7 @@ This section contains an image which has an aria label.
 This section tells the user the "ethos" or what this studio is about.
 
 
-The Studio section:
+<h2>The Studio section:</h2>
 
 <img width="1181" alt="Screen Shot 2022-11-21 at 10 48 35 am" src="https://user-images.githubusercontent.com/113892139/203034724-fe11f896-135d-4320-999a-d35e9fe522d5.png">
 
@@ -59,7 +59,7 @@ This section contains an image which has an aria label.
 This section tells the user some perks of training at this studio.
 
 
-Gallery:
+<h2>Gallery:</h2>
 
 This page contains five images which are sizes in varying collums.
 
@@ -72,7 +72,7 @@ This page also contains a matching header and nav screen as well as footer.
 All gallery text was used from this tutorial, https://www.youtube.com/watch?v=rnhoY5Cdmy0.
 
 
-Contact:
+<h2>Contact:</h2>
 
 <img width="606" alt="Screen Shot 2022-11-21 at 10 46 18 am" src="https://user-images.githubusercontent.com/113892139/203034945-34a6654d-b8bc-475c-a660-f6634c009f36.png">
 
@@ -85,7 +85,7 @@ The contact page is covered by an image as the background which contains an aria
 A tutorial for this contact page was used from, https://www.youtube.com/watch?v=n6sv__UBwIA.
 
 
-The footer:
+<h2>The footer:</h2>
 
 <img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203034774-b593e6d3-7833-42c6-b0f7-e94b0f6e8455.png">
 
@@ -98,7 +98,7 @@ All icons change colour when hovered over.
 The Love Running footer was used on this footer.
 
 
-Testing:
+<h2>Testing:</h2>
 
 I have tested all navigation links work from all pages
 
@@ -117,27 +117,29 @@ I have tested all hovering text does react the way intended.
 <img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203035059-f6718cd6-68bf-415f-8ede-a05eba243e52.png">
 
 
-Bugs (solved):
+<h2>Bugs (solved):</h2>
 
 I had many media query issues with the studio section and about section. This has been resloved to ensure the font and image are still easily seen.
 
 Main image was not stretching correctly, this was resolved by using a tutorial online. (Linked above and in CSS)
 
-Validator testing:
+<h2>Validator testing:</h2>
 
-HTML:
+<h3>HTML:</h3>
 1 error in opening start tag to footer in line 64.
 
-CSS:
+<h3>CSS:</h3>
 1 error in regards to line 207, this was ignored as this is the measurement used in the tutorial and is used to be responsive.
 https://snook.ca/archives/html_and_css/vm-vh-units
 
-ACCESIBLITY:
+<h3>ACCESIBLITY:</h3>
 
 <img width="465" alt="Screen Shot 2022-11-21 at 2 03 10 pm" src="https://user-images.githubusercontent.com/113892139/203074324-0294dafb-0848-40ce-bc02-2f829fc4398f.png">
 
 
-Credits:
+<h2>Credits:</h2>
+
+<h3>Content</h3>
 
 Main image cover issue - https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch
 
@@ -147,7 +149,7 @@ Contact page html and css was used from this tutorial online -  https://www.yout
 
 Footer from Love Running project was used
 
-Images:
+<h3>Images:</h3>
 
 All images were taken from Pexels.
 
