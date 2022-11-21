@@ -1,3 +1,6 @@
+<h1>The Everywoman Studio:</h1>
+<h2>Portfolio 1</h2>
+
 The Everywoman Studio is a website designed to market for a womens yoga studio. Customers and users of this site should be able to find information regarding the studio's ethos, and some perks that come with the use of this studio. As well as see photos oof the studio and some people who train and there, and sign up if they would like more information.
 
 <img width="1010" alt="Screen Shot 2022-11-21 at 2 04 37 pm" src="https://user-images.githubusercontent.com/113892139/203074706-47b8f181-ca01-4551-8634-32c6f1877ff3.png">
@@ -30,7 +33,7 @@ The title explains clearly this is a studio for women.
 The main-image contains alt text for accessibility.
 
 
-<h2>The "about" section:</h2>
+<h2>The "About" Section:</h2>
 
 <img width="1133" alt="Screen Shot 2022-11-21 at 10 48 24 am" src="https://user-images.githubusercontent.com/113892139/203034672-212cf481-43cd-4e8e-8f77-438809fb032e.png">
 
@@ -45,7 +48,7 @@ This section contains an image which has alt text.
 This section tells the user the "ethos" or what this studio is about.
 
 
-<h2>The Studio section:</h2>
+<h2>The Studio Section:</h2>
 
 <img width="1181" alt="Screen Shot 2022-11-21 at 10 48 35 am" src="https://user-images.githubusercontent.com/113892139/203034724-fe11f896-135d-4320-999a-d35e9fe522d5.png">
 
@@ -60,7 +63,7 @@ This section contains an image which has alt text.
 This section tells the user some perks of training at this studio.
 
 
-<h2>Gallery:</h2>
+<h2>Gallery Page:</h2>
 
 This page contains five images which are sizes in varying collums.
 
@@ -75,7 +78,7 @@ All images have alt texts.
 All gallery text was used from this tutorial, https://www.youtube.com/watch?v=rnhoY5Cdmy0.
 
 
-<h2>Contact:</h2>
+<h2>Contact Page:</h2>
 
 <img width="606" alt="Screen Shot 2022-11-21 at 10 46 18 am" src="https://user-images.githubusercontent.com/113892139/203034945-34a6654d-b8bc-475c-a660-f6634c009f36.png">
 
@@ -88,7 +91,7 @@ The contact page is covered by an image.
 A tutorial for this contact page was used from, https://www.youtube.com/watch?v=n6sv__UBwIA.
 
 
-<h2>The footer:</h2>
+<h2>The Footer:</h2>
 
 <img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203034774-b593e6d3-7833-42c6-b0f7-e94b0f6e8455.png">
 
