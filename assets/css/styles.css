@@ -45,7 +45,7 @@
 #main-image {
     height: 600px;
     width: 100%;
-    background-image: url(../images/black-stones-pink-background.jpg);
+    background: url(../images/black-stones-pink-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
