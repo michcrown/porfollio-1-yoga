@@ -3,7 +3,7 @@ The Everywoman Studio is a website designed to market for a womens yoga studio. 
 <img width="1010" alt="Screen Shot 2022-11-21 at 2 04 37 pm" src="https://user-images.githubusercontent.com/113892139/203074706-47b8f181-ca01-4551-8634-32c6f1877ff3.png">
 
 
-Features:
+<h2>Features:</h2>
 
 This site has a navigation bar which directs users to separate pages for Gallery and Contact.
 
