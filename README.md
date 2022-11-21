@@ -1,8 +1,7 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 The Everywoman Studio is a website designed to market for a womens yoga studio. Customers and users of this site should be able to find information regarding the studio's ethos, and some perks that come with the use of this studio. As well as see photos oof the studio and some people who train and there, and sign up if they would like more information.
 
 <img width="1010" alt="Screen Shot 2022-11-21 at 2 04 37 pm" src="https://user-images.githubusercontent.com/113892139/203074706-47b8f181-ca01-4551-8634-32c6f1877ff3.png">
+
 
 Features:
 
@@ -16,6 +15,7 @@ The navigation underlines when hovered over.
 <img width="277" alt="Screen Shot 2022-11-21 at 10 47 39 am" src="https://user-images.githubusercontent.com/113892139/203034572-71b4d43f-875b-4701-81a6-8d9ca5788733.png">
 
 
+
 The Header:
 
 The header is displayed in a separate font and sized to be easily read.
@@ -23,12 +23,14 @@ The header is displayed in a separate font and sized to be easily read.
 This font is displayed in a contrasting color and is easily read.
 
 The title explains clearly this is a studio for women.
+
 <img width="442" alt="Screen Shot 2022-11-21 at 10 47 30 am" src="https://user-images.githubusercontent.com/113892139/203034622-58e2a504-f79a-4af2-8b5d-868381ed7b23.png">
 
 The header image which is below the title and nav contains an aria label. Additional help to ensure sizing of image was used from, https://stackoverflow.com/questions/11757537/css-image-size-how-to-fill-but-not-stretch .
 
 
 The "about" section:
+
 <img width="1133" alt="Screen Shot 2022-11-21 at 10 48 24 am" src="https://user-images.githubusercontent.com/113892139/203034672-212cf481-43cd-4e8e-8f77-438809fb032e.png">
 
 This section is in a separate colour background which clearly identifies this is a separate section.
@@ -43,6 +45,7 @@ This section tells the user the "ethos" or what this studio is about.
 
 
 The Studio section:
+
 <img width="1181" alt="Screen Shot 2022-11-21 at 10 48 35 am" src="https://user-images.githubusercontent.com/113892139/203034724-fe11f896-135d-4320-999a-d35e9fe522d5.png">
 
 This section is in a separate colour background which clearly identifies this is a separate section.
@@ -70,6 +73,7 @@ All gallery text was used from this tutorial, https://www.youtube.com/watch?v=rn
 
 
 Contact:
+
 <img width="606" alt="Screen Shot 2022-11-21 at 10 46 18 am" src="https://user-images.githubusercontent.com/113892139/203034945-34a6654d-b8bc-475c-a660-f6634c009f36.png">
 
 This page contains a floating contact page. 
@@ -82,6 +86,7 @@ A tutorial for this contact page was used from, https://www.youtube.com/watch?v=
 
 
 The footer:
+
 <img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203034774-b593e6d3-7833-42c6-b0f7-e94b0f6e8455.png">
 
 Contains icons which are hyper links to all social media platforms for the user.
@@ -104,9 +109,12 @@ I have tested this on different screen sizes.
 I have ensured all fonts are readable
 
 I have tested the email section on the contact page does not allow any test without the email tag.
+
 <img width="628" alt="Screen Shot 2022-11-21 at 10 46 24 am" src="https://user-images.githubusercontent.com/113892139/203034910-b986b4d8-86f8-4e84-98d0-20119d9c438c.png">
 
-I have tested all hovering text does react the way intended.<img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203035059-f6718cd6-68bf-415f-8ede-a05eba243e52.png">
+I have tested all hovering text does react the way intended.
+
+<img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203035059-f6718cd6-68bf-415f-8ede-a05eba243e52.png">
 
 
 Bugs (solved):
@@ -125,6 +133,7 @@ CSS:
 https://snook.ca/archives/html_and_css/vm-vh-units
 
 ACCESIBLITY:
+
 <img width="465" alt="Screen Shot 2022-11-21 at 2 03 10 pm" src="https://user-images.githubusercontent.com/113892139/203074324-0294dafb-0848-40ce-bc02-2f829fc4398f.png">
 
 
