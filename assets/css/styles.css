@@ -305,11 +305,23 @@ form h1 {
     #footer {
         font-size: 90%;
     }
+    
+}
+
+@media screen and (max-width: 800px){
     #contact-form {
         margin-top: 250px;
         margin-bottom: 250px;
     }
 }
+
+@media screen and (max-width: 400px){
+    #contact-form {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
 @media screen and (max-width: 550px) {
 
     #studio {
