@@ -305,8 +305,11 @@ form h1 {
     #footer {
         font-size: 90%;
     }
+    #contact-form {
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
 }
-
 @media screen and (max-width: 550px) {
 
     #studio {
