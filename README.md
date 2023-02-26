@@ -122,12 +122,17 @@ I have tested all hovering text does react the way intended.
 
 <img width="876" alt="Screen Shot 2022-11-21 at 10 52 45 am" src="https://user-images.githubusercontent.com/113892139/203035059-f6718cd6-68bf-415f-8ede-a05eba243e52.png">
 
+I have tested to ensure the footers appears normal on large and smaller screen sizes.
 
 <h2>Bugs (solved):</h2>
 
 I had many media query issues with the studio section and about section. This has been resloved to ensure the font and image are still easily seen.
 
 Main image was not stretching correctly, this was resolved by using a tutorial online. (Linked above and in CSS)
+
+The footer on smaller screens appeared pushed out and a large white bar appeared. I have ensured the content takes up the needed space.
+
+The button and contact form did not size down properly
 
 <h2>Validator testing:</h2>
 
