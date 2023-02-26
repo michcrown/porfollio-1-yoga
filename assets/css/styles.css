@@ -311,7 +311,7 @@ form h1 {
 @media screen and (max-width: 800px){
     #contact-form {
         margin-top: 250px;
-        margin-bottom: 250px;
+        margin-bottom: 80px;
     }
 }
 
